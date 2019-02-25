@@ -8,7 +8,7 @@
 
 import Foundation
 
-/// Usado para las respuestas que no requieren deveolver ningún objeto
+/// Usado para las respuestas que no requieren devolver ningún objeto
 public typealias EmptyResult = String
 
 /// Objeto de respuesta vacío por defecto
