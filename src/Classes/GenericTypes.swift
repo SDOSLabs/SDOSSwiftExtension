@@ -11,5 +11,9 @@ import Foundation
 /// Usado para las respuestas que no requieren devolver ningún objeto
 public typealias EmptyResult = String
 
-/// Objeto de respuesta vacío por defecto
-let emptyResult = EmptyResult()
+public extension EmptyResult {
+    /// Objeto de respuesta vacío por defecto
+    public static var empty: EmptyResult {
+        return EmptyResult()
+    }
+}
