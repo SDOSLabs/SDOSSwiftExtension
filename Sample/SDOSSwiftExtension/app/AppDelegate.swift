@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SDOSSwiftExtension
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,8 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         self.window = UIWindow.init(frame: UIScreen.main.bounds)
-
-        
+        var aa = Locale.currentLocale
+        var bb = UIDevice.current.deviceInformation
+        var cc = UIApplication.version
         self.window?.rootViewController = DocumentationViewController()
 
         
