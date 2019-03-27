@@ -1,3 +1,7 @@
+## [0.9.3 Modificada implementación de estílos](https://svrgitpub.sdos.es/iOS/SDOSSwiftExtension/tree/v0.9.3)
+
+- Modificada implementación de estílos
+
 ## [0.9.2 Utilidades sobre device, aplication y locale](https://svrgitpub.sdos.es/iOS/SDOSSwiftExtension/tree/v0.9.2)
 
 - Añadida funcionalidad para obtener el current locale
