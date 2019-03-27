@@ -25,25 +25,30 @@ import UIKit
     }
 */
 
-/// Estructura base para la aplicación de estilos a los elementos visuales. Permite crear una clousure con la implementación del estílo a aplicar
-public struct Style<View: UIView> {
+public protocol Stylable { }
+
+/// Estructura base para la aplicación de estilos a los elementos visuales. Permite crear una closure con la implementación del estilo a aplicar
+public struct Style<Element: Stylable> {
     
-    /// Estílo a aplicar
-    fileprivate let style: (View) -> Void
+    /// Estilo a aplicar
+    fileprivate let style: (Element) -> Void
     
     
-    /// Inicializador con el clousure que contiene la lógica para aplicar el estilo
+    /// Inicializador con la closure que contiene la lógica para aplicar el estilo
     ///
-    /// - Parameter style: clousure que contiene la lógica para aplicar el estilo
-    public init(_ style: @escaping (View) -> Void) {
+    /// - Parameter style: closure que contiene la lógica para aplicar el estilo
+    public init(_ style: @escaping (Element) -> Void) {
         self.style = style
     }
     
     
-    /// Método para aplicar el estílo anteriormente definido
+    /// Método para aplicar el estilo anteriormente definido
     ///
-    /// - Parameter view: vista que se cargará con el estilo
-    public func apply(to view: View) {
-        style(view)
+    /// - Parameter element: elemento que se cargará con el estilo
+    public func apply(to element: Element) {
+        style(element)
     }
 }
+
+extension UIView: Stylable { }
+extension UIViewController: Stylable { }

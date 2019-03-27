@@ -1,7 +1,7 @@
 PODS:
-  - SDOSSwiftExtension (0.9.1):
-    - SDOSSwiftExtension/SwiftExtension (= 0.9.1)
-  - SDOSSwiftExtension/SwiftExtension (0.9.1)
+  - SDOSSwiftExtension (0.9.2):
+    - SDOSSwiftExtension/SwiftExtension (= 0.9.2)
+  - SDOSSwiftExtension/SwiftExtension (0.9.2)
   - SDOSVIPER (0.9.0):
     - SDOSVIPER/VIPER (= 0.9.0)
   - SDOSVIPER/VIPER (0.9.0)
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "../../"
 
 SPEC CHECKSUMS:
-  SDOSSwiftExtension: 41193c3ab4e8485e9f2661a8a84b43ebb73c05ca
+  SDOSSwiftExtension: 324e671bcb9bd1d252ab45f601702044dc64c2da
   SDOSVIPER: 3ad1fa9e2e6ae909892d28e3616116cb2a59a62d
 
 PODFILE CHECKSUM: a42d884e320d3d4b3057c5bac9989d0736be7fd9
