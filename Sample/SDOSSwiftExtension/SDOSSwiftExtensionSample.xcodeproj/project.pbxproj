@@ -32,6 +32,8 @@
 		293EE4A6220440C600A592DD /* BuilderCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuilderCommon.swift; sourceTree = "<group>"; };
 		299FF621220C4E7D00FB3D4C /* VIPERBaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERBaseClass.swift; sourceTree = "<group>"; };
 		299FF623220C4EE600FB3D4C /* VIPERBaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERBaseProtocol.swift; sourceTree = "<group>"; };
+		29D10375224BA34400B787BF /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../../CHANGELOG.md; sourceTree = "<group>"; };
+		29D10376224BA34400B787BF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		90009CBF7441903B0CC70B6A /* Pods-SDOSSwiftExtensionSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDOSSwiftExtensionSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDOSSwiftExtensionSample/Pods-SDOSSwiftExtensionSample.debug.xcconfig"; sourceTree = "<group>"; };
 		CEA43DEC02EBE075ACC79535 /* Pods-SDOSSwiftExtensionSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDOSSwiftExtensionSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDOSSwiftExtensionSample/Pods-SDOSSwiftExtensionSample.release.xcconfig"; sourceTree = "<group>"; };
 		DF1EC41BB2E79C88CB7DE715 /* libPods-SDOSSwiftExtensionSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDOSSwiftExtensionSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +79,8 @@
 		293EE43E22043A3800A592DD = {
 			isa = PBXGroup;
 			children = (
+				29D10375224BA34400B787BF /* CHANGELOG.md */,
+				29D10376224BA34400B787BF /* README.md */,
 				293EE45C22043B9300A592DD /* app */,
 				292500CD221AC79800601568 /* podspec */,
 				293EE44822043A3800A592DD /* Products */,
