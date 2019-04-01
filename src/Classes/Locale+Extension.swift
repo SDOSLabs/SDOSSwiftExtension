@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Métodos de útilidad para extender la funcionaldad de Locale
 public extension Locale {
     
     /// Locale with format Language-Country
