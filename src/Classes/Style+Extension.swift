@@ -52,5 +52,8 @@ public struct Style<Element: Stylable> {
     }
 }
 
+/// Extensión de UIView para poder aplicar estilos sobre él
 extension UIView: Stylable { }
+
+/// Extensión de UIViewController para poder aplicar estilos sobre él
 extension UIViewController: Stylable { }
