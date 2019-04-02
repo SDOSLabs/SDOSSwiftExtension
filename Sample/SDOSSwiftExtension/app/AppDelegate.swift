@@ -8,6 +8,19 @@
 import UIKit
 import SDOSSwiftExtension
 
+extension UILabel {
+    enum style {
+        typealias View = UILabel
+        
+        ///Apply with the next line: UILabel.style.title.apply(to: label)
+        static var title: Style<View> {
+            return Style<View> {
+                $0.font = UIFont.boldSystemFont(ofSize: 25)
+                $0.textColor = .white
+            }
+        }
+    }
+}
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

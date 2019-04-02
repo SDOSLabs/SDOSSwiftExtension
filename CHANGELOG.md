@@ -1,3 +1,8 @@
+## [1.0.0 Documentación](https://svrgitpub.sdos.es/iOS/SDOSSwiftExtension/tree/v1.0.0)
+
+- Documentación de la librería
+- Cambio de nombre de clase de diseño
+
 ## [0.9.3 Modificada implementación de estílos](https://svrgitpub.sdos.es/iOS/SDOSSwiftExtension/tree/v0.9.3)
 
 - Modificada implementación de estílos
