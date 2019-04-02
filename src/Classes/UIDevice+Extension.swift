@@ -8,7 +8,10 @@
 import Foundation
 import UIKit
 
+/// Métodos de útilidad para extender la funcionaldad de UIDevice
 public extension UIDevice {
+    
+    /// Devuelve información referente al dispositivo en formato model||name||version (Ejemplo simulador: x86_64||iOS||12.2)
     var deviceInformation: String {
         var systemInfo = utsname()
         uname(&systemInfo)
