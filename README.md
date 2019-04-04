@@ -44,16 +44,16 @@ Estílo para `UIView` que pone el *background color* en azul
 ``` js
 extension UIView {
     enum style {
-    typealias View = UIView
-
-    ///Apply with the next line: UIView.style.main.apply(to: view)
-    static var main: Style<View> {
-        return Style<View> {
-            $0.backgroundColor = .blue
+        typealias View = UIView
+        
+        ///Apply with the next line: UIView.style.main.apply(to: view)
+        static var main: Style<View> {
+            return Style<View> {
+                $0.backgroundColor = .blue
             }
         }
     }
-}
+}   
 ```
 
 Estílo para `UILabel` que cambia el color y el tamaño de la fuente
