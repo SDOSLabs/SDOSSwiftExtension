@@ -9,6 +9,7 @@
 # SDOSSwiftExtension
 
 - Enlace confluence: https://kc.sdos.es/x/DALLAQ
+- Changelog: https://svrgitpub.sdos.es/iOS/SDOSSwiftExtension/blob/master/CHANGELOG.md
 
 ## Introducción
 SDOSSwiftExtension implementa nuevas funcionalidades con el fin de añadir más potencia al lenguaje. Cómo norma general se crearán extensiones de las clases existentes añadiendo nuevas funcionalidades pero también es posible que se creen nuevos componentes con el fin de facilitar el uso del lenguaje
@@ -20,7 +21,7 @@ SDOSSwiftExtension implementa nuevas funcionalidades con el fin de añadir más 
 Usaremos [CocoaPods](https://cocoapods.org). Hay que añadir la dependencia al `Podfile`:
 
 ```ruby
-pod 'SDOSSwiftExtension', '~>1.0.0' 
+pod 'SDOSSwiftExtension', '~>1.0.1' 
 ```
 
 ## Cómo se usa
@@ -44,16 +45,16 @@ Estílo para `UIView` que pone el *background color* en azul
 ``` js
 extension UIView {
     enum style {
-    typealias View = UIView
-
-    ///Apply with the next line: UIView.style.main.apply(to: view)
-    static var main: Style<View> {
-        return Style<View> {
-            $0.backgroundColor = .blue
+        typealias View = UIView
+        
+        ///Apply with the next line: UIView.style.main.apply(to: view)
+        static var main: Style<View> {
+            return Style<View> {
+                $0.backgroundColor = .blue
             }
         }
     }
-}
+}   
 ```
 
 Estílo para `UILabel` que cambia el color y el tamaño de la fuente
