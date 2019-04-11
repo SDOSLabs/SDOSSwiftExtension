@@ -47,8 +47,10 @@ public struct Style<Element: Stylable> {
     /// Método para aplicar el estilo anteriormente definido
     ///
     /// - Parameter element: elemento que se cargará con el estilo
-    public func apply(to element: Element) {
-        style(element)
+    public func apply(to element: Element?) {
+        if let element = element {
+            style(element)
+        }
     }
 }
 
