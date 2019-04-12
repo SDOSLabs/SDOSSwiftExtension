@@ -1,3 +1,7 @@
+## [1.0.1 Aplicación de estilos a opcionales](https://svrgitpub.sdos.es/iOS/SDOSSwiftExtension/tree/v1.0.1)
+
+- El método `apply(to: )` para aplicar un estilo ahora recibe un opcional
+
 ## [1.0.1 Documentación](https://svrgitpub.sdos.es/iOS/SDOSSwiftExtension/tree/v1.0.1)
 
 - Actualizada la documentación

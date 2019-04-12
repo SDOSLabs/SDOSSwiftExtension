@@ -21,7 +21,7 @@ SDOSSwiftExtension implementa nuevas funcionalidades con el fin de añadir más 
 Usaremos [CocoaPods](https://cocoapods.org). Hay que añadir la dependencia al `Podfile`:
 
 ```ruby
-pod 'SDOSSwiftExtension', '~>1.0.1' 
+pod 'SDOSSwiftExtension', '~>1.0.2' 
 ```
 
 ## Cómo se usa
