@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SDOSSwiftExtension",
+        "repositoryURL": "git@svrgitpub.sdos.es:iOS/SDOSSwiftExtension.git",
+        "state": {
+          "branch": "feature/spm",
+          "revision": "f3034d88eb26e12c2427a78c992b2bfbb5450466",
+          "version": null
+        }
+      },
+      {
+        "package": "SDOSVIPER",
+        "repositoryURL": "git@svrgitpub.sdos.es:iOS/SDOSVIPER.git",
+        "state": {
+          "branch": "feature/spm",
+          "revision": "6a84962f6704586f045b5fdee34e2fa842d6753d",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

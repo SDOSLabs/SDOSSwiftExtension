@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		290FF7DC22E1BEF400211F27 /* SDOSVIPER in Frameworks */ = {isa = PBXBuildFile; productRef = 290FF7DB22E1BEF400211F27 /* SDOSVIPER */; };
+		290FF7DF22E1BF1200211F27 /* SDOSSwiftExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 290FF7DE22E1BF1200211F27 /* SDOSSwiftExtension */; };
 		292500C4221A995500601568 /* DocumentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292500C2221A995500601568 /* DocumentationViewController.swift */; };
 		292500C5221A995500601568 /* DocumentationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292500C3221A995500601568 /* DocumentationViewController.xib */; };
 		292500C8221AA2A000601568 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292500C7221AA2A000601568 /* Constants.swift */; };
@@ -16,7 +18,6 @@
 		293EE4A8220440C600A592DD /* BuilderCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293EE4A6220440C600A592DD /* BuilderCommon.swift */; };
 		299FF622220C4E7D00FB3D4C /* VIPERBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299FF621220C4E7D00FB3D4C /* VIPERBaseClass.swift */; };
 		299FF624220C4EE600FB3D4C /* VIPERBaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299FF623220C4EE600FB3D4C /* VIPERBaseProtocol.swift */; };
-		3FA946A3ADAE308413916FF8 /* libPods-SDOSSwiftExtensionSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1EC41BB2E79C88CB7DE715 /* libPods-SDOSSwiftExtensionSample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +35,6 @@
 		299FF623220C4EE600FB3D4C /* VIPERBaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERBaseProtocol.swift; sourceTree = "<group>"; };
 		29D10375224BA34400B787BF /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../../CHANGELOG.md; sourceTree = "<group>"; };
 		29D10376224BA34400B787BF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
-		90009CBF7441903B0CC70B6A /* Pods-SDOSSwiftExtensionSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDOSSwiftExtensionSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDOSSwiftExtensionSample/Pods-SDOSSwiftExtensionSample.debug.xcconfig"; sourceTree = "<group>"; };
-		CEA43DEC02EBE075ACC79535 /* Pods-SDOSSwiftExtensionSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDOSSwiftExtensionSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDOSSwiftExtensionSample/Pods-SDOSSwiftExtensionSample.release.xcconfig"; sourceTree = "<group>"; };
-		DF1EC41BB2E79C88CB7DE715 /* libPods-SDOSSwiftExtensionSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDOSSwiftExtensionSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FA946A3ADAE308413916FF8 /* libPods-SDOSSwiftExtensionSample.a in Frameworks */,
+				290FF7DC22E1BEF400211F27 /* SDOSVIPER in Frameworks */,
+				290FF7DF22E1BF1200211F27 /* SDOSSwiftExtension in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,8 +83,6 @@
 				293EE45C22043B9300A592DD /* app */,
 				292500CD221AC79800601568 /* podspec */,
 				293EE44822043A3800A592DD /* Products */,
-				359ECAA58CAF49BFA8DB0786 /* Pods */,
-				8E83A25A0A6F5AF4CFF6D5C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -257,23 +254,6 @@
 			path = interactor;
 			sourceTree = "<group>";
 		};
-		359ECAA58CAF49BFA8DB0786 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				90009CBF7441903B0CC70B6A /* Pods-SDOSSwiftExtensionSample.debug.xcconfig */,
-				CEA43DEC02EBE075ACC79535 /* Pods-SDOSSwiftExtensionSample.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		8E83A25A0A6F5AF4CFF6D5C5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DF1EC41BB2E79C88CB7DE715 /* libPods-SDOSSwiftExtensionSample.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -281,7 +261,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 293EE45922043A3900A592DD /* Build configuration list for PBXNativeTarget "SDOSSwiftExtensionSample" */;
 			buildPhases = (
-				CF42ACA73EB2EE48FE8C823C /* [CP] Check Pods Manifest.lock */,
 				293EE44322043A3800A592DD /* Sources */,
 				293EE44422043A3800A592DD /* Frameworks */,
 				293EE44522043A3800A592DD /* Resources */,
@@ -292,6 +271,10 @@
 			dependencies = (
 			);
 			name = SDOSSwiftExtensionSample;
+			packageProductDependencies = (
+				290FF7DB22E1BEF400211F27 /* SDOSVIPER */,
+				290FF7DE22E1BF1200211F27 /* SDOSSwiftExtension */,
+			);
 			productName = SDOSVIPER;
 			productReference = 293EE44722043A3800A592DD /* SDOSSwiftExtensionSample.app */;
 			productType = "com.apple.product-type.application";
@@ -321,6 +304,10 @@
 				Base,
 			);
 			mainGroup = 293EE43E22043A3800A592DD;
+			packageReferences = (
+				290FF7DA22E1BEF400211F27 /* XCRemoteSwiftPackageReference "SDOSVIPER" */,
+				290FF7DD22E1BF1200211F27 /* XCRemoteSwiftPackageReference "SDOSSwiftExtension" */,
+			);
 			productRefGroup = 293EE44822043A3800A592DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -361,28 +348,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "file=\"$SRCROOT/XcodeVersion.properties\"\n\n# create file if it does not exist\ntouch \"${file}\"\n\n\n# if file does not exist or it is not readable -> error\nif [ ! -r \"${file}\" ]\nthen\necho \"error: Could not create file: ${file} (see the Xcode Version script in Build Phases)\"\nerror -1\nfi\n# read the keys and values in the file\nwhile IFS='=' read -r key value\ndo\neval \"${key}='${value}'\"\ndone < \"${file}\"\n\n# if not defined the keys: XCODE_VERSION_MAJOR_REQUIRED, XCODE_VERSION_MINOR_REQUIRED, XCODE_VERSION_ACTUAL_REQUIRED\nif ([ -z ${XCODE_VERSION_MAJOR_REQUIRED:+\"1\"} ] || [ -z ${XCODE_VERSION_MINOR_REQUIRED:+\"1\"} ] || [ -z ${XCODE_VERSION_ACTUAL_REQUIRED:+\"1\"} ])\nthen\necho \"XCODE_VERSION_MAJOR_REQUIRED=${XCODE_VERSION_MAJOR}\" > \"${file}\"\necho \"XCODE_VERSION_MINOR_REQUIRED=${XCODE_VERSION_MINOR}\" >> \"${file}\"\necho \"XCODE_VERSION_ACTUAL_REQUIRED=${XCODE_VERSION_ACTUAL}\" >> \"${file}\"\n\necho \"warning: Required Xcode version set to ${XCODE_VERSION_ACTUAL} in this project. If you want to build this project with a different version of Xcode, please remove XcodeVersion.properties file\"\nelif ([ ${XCODE_VERSION_MAJOR_REQUIRED} != ${XCODE_VERSION_MAJOR} ] || [ ${XCODE_VERSION_MINOR_REQUIRED} != ${XCODE_VERSION_MINOR} ])\nthen\necho \"error: [SDOS error] - The required version of Xcode to run this project is ${XCODE_VERSION_MINOR_REQUIRED} and the current version of Xcode is ${XCODE_VERSION_MINOR}. If you want to build this project with a different version of Xcode, please remove XcodeVersion.properties file\"\nerror 0\nelif ([ ${XCODE_VERSION_ACTUAL_REQUIRED} != ${XCODE_VERSION_ACTUAL} ])\nthen\necho \"warning: [SDOS warning] - XCODE VERSION CONFLICT: The required version of Xcode to run this project is ${XCODE_VERSION_ACTUAL_REQUIRED} and the current version of Xcode is ${XCODE_VERSION_ACTUAL}. This might cause some problems at runtime.\"\nfi\n";
-		};
-		CF42ACA73EB2EE48FE8C823C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SDOSSwiftExtensionSample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -532,7 +497,6 @@
 		};
 		293EE45A22043A3900A592DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90009CBF7441903B0CC70B6A /* Pods-SDOSSwiftExtensionSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -554,7 +518,6 @@
 		};
 		293EE45B22043A3900A592DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEA43DEC02EBE075ACC79535 /* Pods-SDOSSwiftExtensionSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -595,6 +558,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		290FF7DA22E1BEF400211F27 /* XCRemoteSwiftPackageReference "SDOSVIPER" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@svrgitpub.sdos.es:iOS/SDOSVIPER.git";
+			requirement = {
+				branch = feature/spm;
+				kind = branch;
+			};
+		};
+		290FF7DD22E1BF1200211F27 /* XCRemoteSwiftPackageReference "SDOSSwiftExtension" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@svrgitpub.sdos.es:iOS/SDOSSwiftExtension.git";
+			requirement = {
+				branch = feature/spm;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		290FF7DB22E1BEF400211F27 /* SDOSVIPER */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 290FF7DA22E1BEF400211F27 /* XCRemoteSwiftPackageReference "SDOSVIPER" */;
+			productName = SDOSVIPER;
+		};
+		290FF7DE22E1BF1200211F27 /* SDOSSwiftExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 290FF7DD22E1BF1200211F27 /* XCRemoteSwiftPackageReference "SDOSSwiftExtension" */;
+			productName = SDOSSwiftExtension;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 293EE43F22043A3800A592DD /* Project object */;
 }
