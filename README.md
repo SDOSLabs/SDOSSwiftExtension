@@ -1,15 +1,15 @@
 - [SDOSSwiftExtension](#sdosswiftextension)
-  - [Introducción](#introducci%C3%B3n)
-  - [Instalación](#instalaci%C3%B3n)
+  - [Introducción](#introducci%c3%b3n)
+  - [Instalación](#instalaci%c3%b3n)
     - [Cocoapods](#cocoapods)
-  - [Cómo se usa](#c%C3%B3mo-se-usa)
-    - [Estílos](#est%C3%ADlos)
+  - [Cómo se usa](#c%c3%b3mo-se-usa)
+    - [Estílos](#est%c3%adlos)
   - [Referencias](#referencias)
 
 # SDOSSwiftExtension
 
 - Enlace confluence: https://kc.sdos.es/x/DALLAQ
-- Changelog: https://svrgitpub.sdos.es/iOS/SDOSSwiftExtension/blob/master/CHANGELOG.md
+- Changelog: https://github.com/SDOSLabs/SDOSSwiftExtension/blob/master/CHANGELOG.md
 
 ## Introducción
 SDOSSwiftExtension implementa nuevas funcionalidades con el fin de añadir más potencia al lenguaje. Cómo norma general se crearán extensiones de las clases existentes añadiendo nuevas funcionalidades pero también es posible que se creen nuevos componentes con el fin de facilitar el uso del lenguaje
@@ -84,4 +84,4 @@ func loadUI() {
 ```
 
 ## Referencias
-* https://svrgitpub.sdos.es/iOS/SDOSSwiftExtension
+* https://github.com/SDOSLabs/SDOSSwiftExtension
