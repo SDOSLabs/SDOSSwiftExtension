@@ -4,25 +4,25 @@
 //  Copyright © 2019 SDOS. All rights reserved.
 //
 
+import UIKit
 import Foundation
-import SDOSVIPER
 
-@objc class VIPERBaseDataStore: VIPERGenericObject {
+@objc class VIPERBaseDataStore: NSObject {
     
 }
 
-@objc class VIPERBaseInteractor : VIPERGenericObject {
+@objc class VIPERBaseInteractor : NSObject {
     
 }
 
-@objc class VIPERBasePresenter : VIPERGenericObject {
+@objc class VIPERBasePresenter : NSObject {
     
 }
 
-@objc class VIPERBaseViewController : VIPERGenericViewController {
+@objc class VIPERBaseViewController : UIViewController {
     
 }
 
-@objc class VIPERBaseWireframe: VIPERGenericObject {
+@objc class VIPERBaseWireframe: NSObject {
     
 }
