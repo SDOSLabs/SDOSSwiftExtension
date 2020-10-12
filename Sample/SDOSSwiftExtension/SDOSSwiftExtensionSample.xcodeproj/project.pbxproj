@@ -47,7 +47,6 @@
 		29D10376224BA34400B787BF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		7815023AA2E520A09E8AF9D5 /* Pods-SDOSSwiftExtensionSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDOSSwiftExtensionSample.debug.xcconfig"; path = "Target Support Files/Pods-SDOSSwiftExtensionSample/Pods-SDOSSwiftExtensionSample.debug.xcconfig"; sourceTree = "<group>"; };
 		84DE916E25346242004CE685 /* SDOSSwiftExtensionSample-SPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDOSSwiftExtensionSample-SPM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84DE916F25346242004CE685 /* SDOSSwiftExtensionSample copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SDOSSwiftExtensionSample copy-Info.plist"; path = "/Users/usuario/Documents/Github/SDOSSwiftExtension/Sample/SDOSSwiftExtension/SDOSSwiftExtensionSample copy-Info.plist"; sourceTree = "<absolute>"; };
 		902074F3AF2AF2AF3C4A3443 /* libPods-SDOSSwiftExtensionSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDOSSwiftExtensionSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -105,7 +104,6 @@
 				292500CD221AC79800601568 /* podspec */,
 				293EE44822043A3800A592DD /* Products */,
 				B4C564353518FC7916D1EA53 /* Pods */,
-				84DE916F25346242004CE685 /* SDOSSwiftExtensionSample copy-Info.plist */,
 				BEC26C185E53FF9D4F9824AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -128,7 +126,6 @@
 				293EE4A42204409E00A592DD /* builder */,
 				292500C6221AA29000601568 /* common */,
 				293EE46B22043BF500A592DD /* configuration */,
-				29AF372A221EF59300733176 /* helpers */,
 				293EE4942204400C00A592DD /* ui */,
 			);
 			path = app;
@@ -247,13 +244,6 @@
 			children = (
 			);
 			path = database;
-			sourceTree = "<group>";
-		};
-		29AF372A221EF59300733176 /* helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = helpers;
 			sourceTree = "<group>";
 		};
 		29B3CAC322115F1F004241FB /* datastore */ = {
