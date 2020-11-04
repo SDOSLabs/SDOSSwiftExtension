@@ -1,27 +1,18 @@
 PODS:
-  - SDOSSwiftExtension (0.9.3):
-    - SDOSSwiftExtension/SwiftExtension (= 0.9.3)
-  - SDOSSwiftExtension/SwiftExtension (0.9.3)
-  - SDOSVIPER (0.9.0):
-    - SDOSVIPER/VIPER (= 0.9.0)
-  - SDOSVIPER/VIPER (0.9.0)
+  - SDOSSwiftExtension (1.0.2):
+    - SDOSSwiftExtension/SwiftExtension (= 1.0.2)
+  - SDOSSwiftExtension/SwiftExtension (1.0.2)
 
 DEPENDENCIES:
   - SDOSSwiftExtension (from `../../`)
-  - SDOSVIPER
-
-SPEC REPOS:
-  https://svrgitpub.sdos.es/iOS/cocoapods-specs.git:
-    - SDOSVIPER
 
 EXTERNAL SOURCES:
   SDOSSwiftExtension:
     :path: "../../"
 
 SPEC CHECKSUMS:
-  SDOSSwiftExtension: 79397f574ce8f7afd4bd8a707aede252372eb1cd
-  SDOSVIPER: 3ad1fa9e2e6ae909892d28e3616116cb2a59a62d
+  SDOSSwiftExtension: 19d2c59deda52f39673f0039de6f82c86422c9c5
 
-PODFILE CHECKSUM: a42d884e320d3d4b3057c5bac9989d0736be7fd9
+PODFILE CHECKSUM: 7522c46805dc81eeceec116f2ef5b883410b88ad
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.9.3
