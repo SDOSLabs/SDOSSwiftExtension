@@ -1,3 +1,7 @@
+## [HEAD]
+
+- Add support for Swift Package Manager
+
 ## [1.0.2 Aplicación de estilos a opcionales](https://github.com/SDOSLabs/SDOSSwiftExtension/tree/v1.0.2)
 
 - El método `apply(to: )` para aplicar un estilo ahora recibe un opcional

@@ -1,9 +1,12 @@
 - [SDOSSwiftExtension](#sdosswiftextension)
-  - [Introducción](#introducci%c3%b3n)
-  - [Instalación](#instalaci%c3%b3n)
+  - [Introducción](#introducción)
+  - [Instalación](#instalación)
     - [Cocoapods](#cocoapods)
-  - [Cómo se usa](#c%c3%b3mo-se-usa)
-    - [Estílos](#est%c3%adlos)
+    - [Swift Package Manager](#swift-package-manager)
+      - [**En el "Project"**](#en-el-project)
+      - [**En un Package.swift**](#en-un-packageswift)
+  - [Cómo se usa](#cómo-se-usa)
+    - [Estílos](#estílos)
   - [Referencias](#referencias)
 
 # SDOSSwiftExtension
@@ -22,6 +25,43 @@ Usaremos [CocoaPods](https://cocoapods.org). Hay que añadir la dependencia al `
 
 ```ruby
 pod 'SDOSSwiftExtension', '~>1.0.2' 
+```
+
+### Swift Package Manager
+
+A partir de Xcode 12 podemos incluir esta librería a través de Swift package Manager. Existen 2 formas de añadirla a un proyecto:
+
+#### **En el "Project"**
+
+Debemos abrir nuestro proyecto en Xcode y seleccionar el proyecto para abrir su configuración. Una vez aquí seleccionar la pestaña "Swift Packages" y añadir el siguiente repositorio
+
+```
+https://github.com/SDOSLabs/SDOSSwiftExtension.git
+```
+
+En el siguiente paso deberemos seleccionar la versión que queremos instalar. Recomentamos indicar "Up to Next Major" 1.1.0.
+
+Por último deberemos indicar el o los targets donde se deberá incluir la librería
+
+#### **En un Package.swift**
+
+Incluir la dependencia en el bloque `dependencies`:
+
+``` swift
+dependencies: [
+    .package(url: "https://github.com/SDOSLabs/SDOSSwiftExtension.git", .upToNextMajor(from: "1.1.0"))
+]
+```
+
+Incluir la librería en el o los targets desados:
+
+```js
+.target(
+    name: "YourDependency",
+    dependencies: [
+        "SDOSSwiftExtension"
+    ]
+)
 ```
 
 ## Cómo se usa
