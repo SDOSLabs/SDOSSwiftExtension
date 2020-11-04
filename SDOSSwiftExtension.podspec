@@ -1,4 +1,4 @@
-@version = "1.0.2"
+@version = "1.1.0"
 Pod::Spec.new do |spec|
   spec.platform     = :ios, '9.0'
   spec.name         = 'SDOSSwiftExtension'
@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT' }
   spec.homepage     = 'https://github.com/SDOSLabs/SDOSSwiftExtension'
   spec.summary      = 'Librería para extender funcionalidades base de Swift con las necesidades de SDOS'
-  spec.source       = { :git => "https://github.com/SDOSLabs/SDOSSwiftExtension.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://github.com/SDOSLabs/SDOSSwiftExtension.git", :tag => "#{spec.version}" }
   spec.framework    = ['Foundation', 'UIKit']
   spec.requires_arc = true
 
